@@ -1,14 +1,12 @@
 const dotEnv = require("dotenv").config();
 
-console.log(dotEnv);
-
 const database = dotEnv.parsed.DB_NAME;
 const username = dotEnv.parsed.DB_USER;
 const password = dotEnv.parsed.DB_PASS;
 const host = dotEnv.parsed.DB_HOST;
 const port = dotEnv.parsed.DB_PORT;
 
-console.log(database + ", " + username + ", " + password + ", " + host + ", " + port + ", " );
+console.log(database + ", " + username + ", " + host + ", " + port + ", " );
 
 module.exports = {
   development: {

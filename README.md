@@ -12,7 +12,7 @@ To run this app, do `npm start`; However, if you don't have nodemon installed, r
 
 About the database:
 
-* Use `config/database.json` file for config settings.
+* Use `config/config.js` file for config settings.
 * Use `db/models` as models folder.
 * Use `db/seeders` as seeders folder.
 * Use `db/migrations` as migrations folder.
